@@ -8,7 +8,7 @@ let rsp = await fetch("http://127.0.0.1:8090/unlock", {
 });
 let data = await response.json();
 if (data && data.unlocked == true) {
-  // what do we do if we have unlocked this level?
+  // if it works
 } else {
   // what if we haven't?
 }
