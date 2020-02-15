@@ -68,15 +68,21 @@ app.use(session({
   saveUninitialized: true
 }))
 
+app.use(express.static("public"))
+
+app.use(express.static(__dirname + '/public', {extensions: ['html']}));
+
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+/*
 app.get("/", (req, res) => {
-  res.status(200);
-  res.send("Things?");
+  res.render("index.html");
 });
+*/
+
 
 app.get('/login',
   passport.authenticate('google', { scope: ['profile'] }));
