@@ -3,15 +3,16 @@
     <head>
         <title>Challenge Map</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+        <meta name="viewport">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="map.js"></script> 
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBChUQJ8rpdIgrvZntk3p1xOuORzKHcl5I&callback=initMap">
+            </script>
     </head>
-    <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
-    </script>
-    <script src="map.js"></script> 
+   
 
-    <body>
+    <body  onload="initMap()">
         <header>  
         </header>
         <main>
