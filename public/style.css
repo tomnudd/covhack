@@ -41,8 +41,32 @@ nav a:hover{
 }    
 
 #home {
-    background-image: url("https://www.squab.co.uk/wp-content/uploads/2017/09/squab-service-coventry.jpg") ;
+    background-image: url("https://i.imgur.com/qVuznO2.jpg") ;
     background-size: cover;
     height: 100%;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+footer a.covhack {
+    background:rgb(73,166,228);
+    border: 1px solid rgb(73,166,228);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
