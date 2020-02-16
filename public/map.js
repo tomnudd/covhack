@@ -9,7 +9,7 @@ let levels = {1: ['Coventry Cathedral', {lat: 52.407957, lng: -1.507509}, 20,'<d
 '<p>Read more about Coventry Catherdral\'s <a href="http://www.coventrycathedral.org.uk/wpsite/our-history/">'+
 'history</a> here!</p>'+
 '</div>'+
-'</div>'], 
+'</div>'],
 2: ['St Mary\'s Guildhall', {lat:  52.407703, lng: -1.507467}, 18, '<div id="content">'+
 '<div id="siteNotice">'+
 '</div>'+
@@ -95,6 +95,6 @@ function initMap(id) {
 }
 
 window.onload = function() {
-  const level = 1;
+  const level = 1+Math.floor(Math.random() * Math.floor(5));
   initMap(level);
 }
