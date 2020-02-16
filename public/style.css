@@ -51,10 +51,21 @@ nav a:hover{
 }
 
 .mission{
-
+    width: 75%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 15px;
+    margin: 0.5% auto 0;
+    text-align: center;
 }
 
 .challenge{
+    width: 75%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 15px;
+    margin: 0.5% auto 0;
+    text-align: center;
     
 }
 
