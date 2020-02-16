@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: ();
+    background-size: cover;
+    background-position: center;
+
+}
+
+.signup
+{
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 30px;
+    margin: 10% auto 0;
+    text-align: center;
+}
+.signup h1
+{color: rgb(37, 95, 169);
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button
+{
+    color:#fff;
+    widows: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+.sign-btn
+{
+    background-color:rgb(37, 95, 169) ;
+}
+.twitter-btn
+{
+    background-color: rgb(73, 166, 228) ;
+}
+.google-btn
+{
+    background-color: rgb(73, 166, 228) ;
+}
