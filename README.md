@@ -22,7 +22,10 @@ Each challenge you complete gives you points and unlocks a minigames and each mi
 Use these points to reedem vouchers for local tourist sites and businesses, while giving back to the local community. The challenge aims to help local charities by creating a fundraising event in steps.
 
 ## Contact Us
-email: hiddencov@hgmail.com
+email: hiddencov@gmail.com
+
 phone number:020 2822 5383
+
 instagram:hidden_cov
+
 Twitter:hidden_cov
