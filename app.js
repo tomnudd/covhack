@@ -7,19 +7,19 @@ const bodyParser = require("body-parser");
 const path = require("path");
 //require("dotenv").config();
 
-const passport = require("passport");
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const GOOGLE_CLIENT_ID = "REDACTED.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "REDACTED";
+REPLACE
+REPLACE
+REPLACE
+REPLACE
 
-const TwitterStrategy = require("passport-twitter").Strategy;
-const TWITTER_API_KEY = "REDACTED";
-const TWITTER_API_SECRET = "REDACTED";
+REPLACE
+REPLACE
+REPLACE
 
-const mongodb = require("mongodb");
-const MongoClient = mongodb.MongoClient;
-const CONNECTION_URL = "mongodb+srv://REDACTED:REDACTED@cluster0-gieip.gcp.mongodb.net/test?retryWrites=true&w=majority";
-const DB_NAME = "CovHack";
+REPLACE
+REPLACE
+REPLACE
+REPLACE
 
 MongoClient.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true}, (err, client) => {
   if (err) {
