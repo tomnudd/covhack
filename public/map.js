@@ -95,6 +95,6 @@ function initMap(id) {
 }
 
 window.onload = function() {
-  const level = 5;
+  const level = 1;
   initMap(level);
 }
