@@ -48,6 +48,7 @@ nav a:hover{
     margin: 10px;
     padding: 10px;
     text-decoration: none;
+    font-size: xxxx-large;
 }
 
 .mission{
@@ -68,6 +69,11 @@ nav a:hover{
     text-align: center;
     
 }
+
+.impact{
+    text-align: left;
+}
+
 
 #home {
     background-image: url("https://i.imgur.com/qVuznO2.jpg") ;
