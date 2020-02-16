@@ -41,6 +41,23 @@ nav a:hover{
     font-size: x-large;
 }
 
+.title {
+    text-align: center;
+    border: 1px solid rgb(73,166,228);
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.mission{
+
+}
+
+.challenge{
+    
+}
+
 #home {
     background-image: url("https://i.imgur.com/qVuznO2.jpg") ;
     background-size: cover;
@@ -74,4 +91,14 @@ footer {
     margin: 10px;
     padding: 14px;
     text-decoration: none;
+}
+
+.contact{
+    border: 1px solid rgb(73,166,228);
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(73,166,228); 
+    color: white;
+    bottom: 0;
 }
