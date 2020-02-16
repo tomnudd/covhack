@@ -6,3 +6,30 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
+#sidebar li {
+    list-style-type: none;
+}
+
+nav{
+    border: 1px solid grey;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+  }
+nav a{
+    background: purple;
+    border: 1px solid purple;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+nav a:hover{
+    background: white;
+    border: 1px solid purple;
+    color: purple;
+  }

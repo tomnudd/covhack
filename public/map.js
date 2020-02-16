@@ -34,6 +34,6 @@ function initMap(id) {
 }
 
 window.onload = function() {
-  const level = 3;
+  const level = 2;
   initMap(level);
 }
