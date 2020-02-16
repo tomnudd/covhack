@@ -3,6 +3,7 @@
 	<head>
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="style1.css">
+				<script src="index.js"></script>
 	</head>
 
 	<body>
@@ -12,7 +13,12 @@
                 <a href='#' id="menu-icon"></a>
                 <ul class="menu">
                 <li><a href = "./about.html" >About Us</a></li>
-                <li><a href = "./login.html">Login</a></li>
+								<div id="hiddenWhenLoggedIn" style="display:inline">
+	                <li><a href = "./login.html">Login</a></li>
+								</div>
+								<div id="hiddenWhenLoggedOut" style="display:none">
+									<li><a href = "./logout">Logout</a></li>
+								</div>
                 <li><a href ="./map.html">Maps</a></li>
                 <li><a href = "./minigames.html">Minigames</a></li>
             </ul>
@@ -28,10 +34,3 @@
 		<a style="color:#000" href = "./login.html" class="button">Sign up or Login</a>
 	</body>
 </html>
-
-      <div id="hiddenWhenLoggedIn" style="display:inline">
-        This vanishes when you <a style="color:#000" href="/glogin">login!</a>
-      </div>
-      <div id="hiddenWhenLoggedOut" style="display:none">
-        This appeared because you logged in!
-      </div>
