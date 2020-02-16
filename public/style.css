@@ -15,11 +15,12 @@ nav{
     border: 1px solid grey;
     border-radius: 3px;
     position: relative;
-    text-align: center;
+    text-align: right;
+    background-color: rgb(73,166,228);
   }
 nav a{
-    background: purple;
-    border: 1px solid purple;
+    background:rgb(73,166,228);
+    border: 1px solid rgb(73,166,228);
     border-radius: 3px;
     color: white;
     display: inline-block;
@@ -30,6 +31,6 @@ nav a{
   
 nav a:hover{
     background: white;
-    border: 1px solid purple;
-    color: purple;
+    border: 1px solid rgb(37,95,169);
+    color: rgb(37,95,169);
   }

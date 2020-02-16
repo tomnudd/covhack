@@ -1,8 +1,103 @@
-let levels = {1: ['Coventry Cathedral', {lat: 52.407957, lng: -1.507509}, 20],
-2: ['St Mary\'s Guildhall', {lat:  52.407703, lng: -1.507467}, 18],
-3: ['Lady Godiva', {lat: 52.408043, lng: -1.510382}, 17],
-4: ['War Memorial', {lat: 52.393820, lng: -1.518660}, 15],
-5: ['Warwick Arts Centre', {lat: 52.380007, lng: -1.561487}, 13]}
+let levels = {1: ['Coventry Cathedral', {lat: 52.407957, lng: -1.507509}, 20,'<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Coventry Cathedral</h1>'+
+'<div id="bodyContent">'+
+'<p>Coventry Cathedral, also referred to as <b>Ayers Rock</b>, is a large ' +
+'sandstone rock formation in the southern part of the '+
+'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+'south west of the nearest large town, Alice Springs; 450&#160;km '+
+'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+'Aboriginal people of the area. It has many springs, waterholes, '+
+'rock caves and ancient paintings. Uluru is listed as a World '+
+'Heritage Site.</p>'+
+'<p><b>Challenge: </b> You will be doing a treasure hunt, with a goal to meet another challenger!</p>'+
+'<p>Read more: Coventry Cathedral\'s <a href="https://app.slack.com/client/TSL5FDQG3/GU23NPR5K/thread/CSMF1RM25-1581806284.056600">'+
+'wikipedia.</a> </p>'+
+'</div>'+
+'</div>'], 
+2: ['St Mary\'s Guildhall', {lat:  52.407703, lng: -1.507467}, 18, '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+'<div id="bodyContent">'+
+'<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+'sandstone rock formation in the southern part of the '+
+'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+'south west of the nearest large town, Alice Springs; 450&#160;km '+
+'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+'Aboriginal people of the area. It has many springs, waterholes, '+
+'rock caves and ancient paintings. Uluru is listed as a World '+
+'Heritage Site.</p>'+
+'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+'(last visited June 22, 2009).</p>'+
+'</div>'+
+'</div>'],
+3: ['Lady Godiva', {lat: 52.408043, lng: -1.510382}, 17, '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+'<div id="bodyContent">'+
+'<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+'sandstone rock formation in the southern part of the '+
+'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+'south west of the nearest large town, Alice Springs; 450&#160;km '+
+'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+'Aboriginal people of the area. It has many springs, waterholes, '+
+'rock caves and ancient paintings. Uluru is listed as a World '+
+'Heritage Site.</p>'+
+'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+'(last visited June 22, 2009).</p>'+
+'</div>'+
+'</div>'],
+4: ['War Memorial', {lat: 52.393820, lng: -1.518660}, 15,'<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+'<div id="bodyContent">'+
+'<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+'sandstone rock formation in the southern part of the '+
+'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+'south west of the nearest large town, Alice Springs; 450&#160;km '+
+'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+'Aboriginal people of the area. It has many springs, waterholes, '+
+'rock caves and ancient paintings. Uluru is listed as a World '+
+'Heritage Site.</p>'+
+'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+'(last visited June 22, 2009).</p>'+
+'</div>'+
+'</div>'],
+5: ['Warwick Arts Centre', {lat: 52.380007, lng: -1.561487}, 13, '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+'<div id="bodyContent">'+
+'<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+'sandstone rock formation in the southern part of the '+
+'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+'south west of the nearest large town, Alice Springs; 450&#160;km '+
+'(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+'Aboriginal people of the area. It has many springs, waterholes, '+
+'rock caves and ancient paintings. Uluru is listed as a World '+
+'Heritage Site.</p>'+
+'<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+'(last visited June 22, 2009).</p>'+
+'</div>'+
+'</div>']}
 
 function initMap(id) {
   if (id) {
@@ -20,6 +115,10 @@ function initMap(id) {
       title: `Level ${id.toString()}: ${name}$`
       });
 
+      var infowindow = new google.maps.InfoWindow({
+        content: levels[id][3]
+      });
+
       map.addListener('center_changed', function() {
         window.setTimeout(function() {
           map.panTo(marker.getPosition());
@@ -29,6 +128,7 @@ function initMap(id) {
       marker.addListener('click', function() {
         map.setZoom(zoom);
         map.setCenter(marker.getPosition());
+        infowindow.open(map, marker);
       });
   }
 }
