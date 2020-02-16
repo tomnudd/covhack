@@ -34,3 +34,15 @@ nav a:hover{
     border: 1px solid rgb(37,95,169);
     color: rgb(37,95,169);
   }
+
+.welcome {
+    text-align: center;
+    font-size: x-large;
+}    
+
+#home {
+    background-image: url("https://www.squab.co.uk/wp-content/uploads/2017/09/squab-service-coventry.jpg") ;
+    background-size: cover;
+    height: 100%;
+}
+
