@@ -5,6 +5,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-family: 'Jost';
 }
 
 #sidebar li {
@@ -28,7 +29,7 @@ nav a{
     padding: 14px;
     text-decoration: none;
   }
-  
+
 nav a:hover{
     background: white;
     border: 1px solid rgb(37,95,169);
@@ -38,7 +39,7 @@ nav a:hover{
 .welcome {
     text-align: center;
     font-size: x-large;
-}    
+}
 
 #home {
     background-image: url("https://i.imgur.com/qVuznO2.jpg") ;
